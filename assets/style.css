@@ -1,0 +1,48 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manuale', serif;
+    font-family: "Times New Roman", Times, serif;  
+}
+.navbar_container {
+    background-image: url('./images/watercolour.jpg');
+    height: 60px;
+    width: 100%;
+}
+a {
+    color: white;
+}
+
+h1, a {
+    display: inline-block;
+}
+.navbar_container a:hover {
+    background-color: white;
+    color: #005576;
+
+}
+.active {
+    background-color: #005576;
+  }
+
+h1 {
+
+    height: 60px;
+    margin-left: 150px;
+    background-color: white;
+    color: #005576;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: text-bottom;
+}
+
+a {
+    float: right;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
